@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T15:38:11 IST" name="ExtentReports" finished-at="2023-12-01T15:38:17 IST" duration-ms="6310">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T15:38:11 IST" name="LoginTest" finished-at="2023-12-01T15:38:17 IST" duration-ms="6310">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="start_browser()[pri:0, instance:tests.LoginTest@470734c3]" started-at="2023-12-01T15:38:11 IST" name="start_browser" finished-at="2023-12-01T15:38:16 IST" duration-ms="4754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method signature="test_login(java.lang.String,java.lang.String)[pri:49, instance:tests.LoginTest@470734c3]" started-at="2023-12-01T15:38:16 IST" name="test_login" data-provider="excelData" finished-at="2023-12-01T15:38:17 IST" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Itest@Itest.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Itest@Itest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method signature="test_getTitle()[pri:50, instance:tests.LoginTest@470734c3]" started-at="2023-12-01T15:38:17 IST" name="test_getTitle" finished-at="2023-12-01T15:38:17 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getTitle -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.LoginTest@470734c3]" started-at="2023-12-01T15:38:17 IST" name="close" finished-at="2023-12-01T15:38:17 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- ExtentReports -->
+</testng-results>

@@ -1,0 +1,10 @@
+<suite name="ExtentReports" verbose="1">
+<listeners>
+        <listener class-name="utilities.MytestListener" />
+    </listeners>
+<test name="LoginTest">
+<classes>
+<class name="tests.LoginTest"></class>
+</classes>
+</test>
+</suite>
